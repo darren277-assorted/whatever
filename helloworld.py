@@ -1,5 +1,5 @@
 try:
     print('hello world')
-except:
-    print('Could not print for some unknown reason.')
+except ZeroDivisionError:
+    print('Could not print for because you tried dividing by zero somewhere.')
 
